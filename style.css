@@ -1,0 +1,69 @@
+body {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: black;
+    color: #fff;
+
+}
+
+.calculator {
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 30rem;
+    flex: 0 0 95%;
+}
+
+.screen {
+    width: 100%;
+    border: 1px solid black;
+    font-size: 7rem;
+    padding: 0.5rem;
+    background: rgb(41, 41, 56);
+    color: white;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    flex: 0 0 25%;
+    border-radius: 50%;
+    padding: 0.25rem 0;
+    display: block;
+}
+
+button:hover {
+    background: rgb(37, 37, 48);
+}
+
+.yellow {
+    background: rgb(223, 110, 19);
+    color: rgb(158, 156, 156);
+}
+
+.grey {
+    background: darkgray
+}
+
+.btn {
+    font-size: 4rem;
+
+}
+
+.btnEqual,
+.btnClear {
+    font-size: 4rem;
+}
+
+.btnEqual {
+    background-color: rgb(158, 156, 156);
+}
+
+.btnClear {
+    background: darkgray
+}
